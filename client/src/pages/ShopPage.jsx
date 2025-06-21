@@ -11,9 +11,9 @@ export default function ShopPage() {
 const { items: products, loading, error } = useSelector((state) => state.products);
 
   const images = [
-    "../../public/Paste.png",
-    "../../public/Paste.png",
-    "../../public/Paste.png",
+    "/Paste.png",
+    "/Paste.png",
+    "/public/Paste.png",
   ];
 
   const categories = ["All", "Living Room", "Bedroom", "Kitchen"];
