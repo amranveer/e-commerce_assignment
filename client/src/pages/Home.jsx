@@ -21,12 +21,12 @@ export default function Home() {
 
 
                 {/* Hero Section */}
-                <div className="lg:px-10">
+                <div className="lg:px-10 px-4">
                     <Carousel images={images} />
                 </div>
 
                 {/* Tagline Section */}
-                <section className="w-full flex lg:px-10  md:flex-row  gap-8 ">
+                <section className="w-full px-4 flex lg:px-10  md:flex-row  gap-8 ">
                     {/* Left Text */}
                     <div className="md:w-1/2 w-full  flex flex-col justify-center items-start">
                         <h2 className="text-4xl lg:text-6xl md:text-5xl font-poppins font-semibold leading-tight">
@@ -51,7 +51,7 @@ export default function Home() {
             </div>
 
             {/* Categories */}
-            <section className="flex flex-col md:flex-row w-full gap-6  md:px-10 mx-auto mb-12">
+            <section className="flex flex-col md:flex-row w-full gap-6 px-4  md:px-10 mx-auto mb-12">
                 {/* Left - Living Room */}
                 <div className="relative w-full  md:w-1/2 bg-[#F3F5F7]  overflow-hidden flex-1 flex items-center justify-center">
                     <img

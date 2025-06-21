@@ -78,7 +78,7 @@ const { items: products, loading, error } = useSelector((state) => state.product
           options={sortOptions}
           selected={selectedSort}
           onChange={setSelectedSort}
-          className="ml-auto"
+          className="ml-auto hidden lg:block"
         />
       </div>
 

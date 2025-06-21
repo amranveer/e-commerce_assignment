@@ -12,27 +12,27 @@ export default function Footer() {
 
       {/* Form Overlay */}
       <div className="absolute inset-0 flex items-center justify-center px-4">
-        <div className="text-center max-w-xl w-full">
-          <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 mb-2">
+        <div className="text-center w-full max-w-xl sm:max-w-md">
+          <h2 className="text-lg sm:text-xl md:text-3xl font-semibold text-gray-900 mb-2">
             Join Our Newsletter
           </h2>
-          <p className="text-gray-600 mb-6">
+          <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6">
             Sign up for deals, new products and promotions
           </p>
 
           {/* Email Form */}
-          <form className="flex items-center gap-4 border-b border-gray-300 justify-between max-w-md mx-auto px-2 bg-transparent">
-            <div className="flex items-center text-gray-500 flex-grow">
-              <FiMail className="text-xl mr-2" />
+          <form className="flex  items-center gap-2 sm:gap-4 border-b border-gray-300 justify-between px-2 bg-transparent">
+            <div className="flex items-center  text-gray-500 flex-grow">
+              <FiMail className="text-base sm:text-xl mr-2" />
               <input
                 type="email"
                 placeholder="Email address"
-                className="bg-transparent focus:outline-none py-2 text-sm w-full"
+                className="bg-transparent focus:outline-none py-1 sm:py-2 text-sm w-full"
               />
             </div>
             <button
               type="submit"
-              className="text-sm text-gray-700 font-medium hover:text-black transition"
+              className="text-sm text-gray-700 font-medium  hover:text-black transition"
             >
               Signup
             </button>
