@@ -9,7 +9,6 @@ import { ChevronDownIcon } from "@heroicons/react/20/solid";
 export default function ShopPage() {
   const dispatch = useDispatch();
 const { items: products, loading, error } = useSelector((state) => state.products);
-
   const images = [
     "/Paste.png",
     "/Paste.png",
@@ -31,6 +30,7 @@ const { items: products, loading, error } = useSelector((state) => state.product
   // Filter and sort logic
   let filtered = Array.isArray(products) ? [...products] : [];
 
+console.log(filtered)
   if (selectedCategory !== "All") {
     filtered = filtered.filter((p) => p.category === selectedCategory);
   }
