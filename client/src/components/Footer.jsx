@@ -5,7 +5,7 @@ export default function Footer() {
     <section className="relative w-full bg-[#F3F5F7] overflow-hidden">
       {/* Full-width Footer Image */}
       <img
-        src="../../public/footer.png"
+        src="/public/footer.png"
         alt="Footer Design"
         className="w-full h-auto object-cover"
       />
