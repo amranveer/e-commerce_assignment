@@ -97,7 +97,7 @@ const { items: products, loading, error } = useSelector((state) => state.product
               title={product.name}
               price={product.price}
               originalPrice={product.originalPrice}
-              image={product.image || "../../public/Left.png"}
+              image={product.image[0]}
               isNew={product.isNew}
             />
           ))}

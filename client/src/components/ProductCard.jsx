@@ -20,7 +20,7 @@ export default function ProductCard({
       {/* Product Image */}
       <div className="overflow-hidden">
         <img
-          src={image || "/fallback.jpg"}
+          src={image}
           onError={(e) => (e.target.src = "/fallback.jpg")}
           alt={title}
           className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
