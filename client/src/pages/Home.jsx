@@ -5,9 +5,9 @@ import { FaTruck, FaMoneyBillWave, FaLock, FaPhoneAlt } from "react-icons/fa";
 
 export default function Home() {
     const images = [
-        "/public/Paste.png",
-        "/public/Paste.png",
-        "/public/Paste.png",
+        "Paste.png",
+        "Paste.png",
+        "/Paste.png",
     ];
 
     return (
@@ -55,7 +55,7 @@ export default function Home() {
                 {/* Left - Living Room */}
                 <div className="relative w-full  md:w-1/2 bg-[#F3F5F7]  overflow-hidden flex-1 flex items-center justify-center">
                     <img
-                        src="/public/Living.png"
+                        src="Living.png"
                         alt="Living Room"
                         className="w-full h-auto object-contain"
                     />
@@ -70,7 +70,7 @@ export default function Home() {
                     {/* Bedroom */}
                     <div className="relative bg-[#F3F5F7] w-full  overflow-hidden flex items-center justify-center">
                         <img
-                            src="/public/Bedroom.png"
+                            src="Bedroom.png"
                             alt="Bedroom"
                             className="w-full h-auto object-contain"
                         />
@@ -114,7 +114,7 @@ export default function Home() {
                         <div key={id} className="min-w-[250px] max-w-[250px] flex-shrink-0">
                             <ProductCard
                                 title="Product Name"
-                                image="/public/Left.png"
+                                image="/Left.png"
                                 price={99.99}
                                 originalPrice={199.99}
                                 isNew={true}
