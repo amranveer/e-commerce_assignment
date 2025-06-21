@@ -83,7 +83,7 @@ export default function Home() {
                     {/* Kitchen */}
                     <div className="relative bg-[#F3F5F7] w-full  overflow-hidden flex items-center justify-center">
                         <img
-                            src="/public/Kitchen.png"
+                            src="/Kitchen.png"
                             alt="Kitchen"
                             className="w-full h-auto object-contain"
                         />
@@ -166,7 +166,7 @@ export default function Home() {
                 {/* Image - Full half, no padding */}
                 <div className="w-full md:w-1/2">
                     <img
-                        src="/public/Paste.png"
+                        src="/Paste.png"
                         alt="Promo"
                         className="w-full h-full object-cover"
                     />
