@@ -93,13 +93,14 @@ console.log(filtered)
           !error &&
           filtered.map((product) => (
             <ProductCard
-              key={product._id}
-              title={product.name}
-              price={product.price}
-              originalPrice={product.originalPrice}
-              image={product.image[0]}
-              isNew={product.isNew}
-            />
+  key={product._id}
+  title={product.name}
+  price={product.price}
+  originalPrice={product.originalPrice}
+  image={product.images?.[0]} // ✅ FIXED: first image from array
+  isNew={product.isNew}
+/>
+
           ))}
       </div>
 
