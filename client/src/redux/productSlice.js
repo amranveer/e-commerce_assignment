@@ -6,7 +6,7 @@ import instance from "../axiosInstance";
 export const fetchProducts = createAsyncThunk(
   "products/fetchProducts",
   async () => {
-    const response = await instance.get("products");
+    const response = await instance.get("/products");
     console.log("Fetched products:", response.data); // ✅ Add this
     return response.data;
   }
